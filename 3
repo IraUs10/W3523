@@ -1,0 +1,12 @@
+{
+    mtx->rows = rows;
+    mtx->cols = cols;
+    return true;
+  }
+  else
+  {
+    mtx->data = nullptr;
+    mtx->rows = 0;
+    mtx->cols = 0;
+    return false;
+  }
